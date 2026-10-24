@@ -108,7 +108,7 @@ int getDistance() {
 void flashLEDs() {
   for (int i = 0; i < 4; i++) {
     digitalWrite(LEDR, HIGH);  // Turn on Red LED
-    digitalWrite(LEDL, HGH);  // Turn on Green LED
+    digitalWrite(LEDL, HIGH);  // Turn on Green LED
     delay(300);                // Wait for 300ms
     digitalWrite(LEDR, LOW);   // Turn off Red LED
     digitalWrite(LEDL, LOW);   // Turn off Green LED
